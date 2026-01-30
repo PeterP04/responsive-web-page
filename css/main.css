@@ -96,8 +96,9 @@
 .panel {
   padding: 0 18px;
   background-color: white;
+  max-height: 0;
   overflow: hidden;
-  display: block;
+  transition: max-height 0.3s ease;
 }
 
 .panel iframe {
@@ -182,6 +183,7 @@
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
 
 
 
