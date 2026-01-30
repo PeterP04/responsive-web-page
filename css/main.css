@@ -18,13 +18,13 @@
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: black;
-  color: red;
+  color: white;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
   background-color: #002fff;
-  color: gold;
+  color: green;
 }
 
 /* Hide the icon that should open and close the topnav on small screens */
@@ -175,3 +175,4 @@
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
