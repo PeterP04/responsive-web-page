@@ -24,7 +24,7 @@
 /* Add an active class to highlight the current page */
 .topnav a.active {
   background-color: #4169E1;
-  color: yellow;
+  color: white;
 }
 
 /* Hide the icon that should open and close the topnav on small screens */
@@ -175,6 +175,7 @@
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
 
 
 
